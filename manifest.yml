@@ -1,0 +1,10 @@
+applications:
+- name: ctlist
+  buildpacks:
+  - binary_buildpack
+  instances: 1
+  memory: 128M
+  random-route: true
+  stack: cflinuxfs3
+  command: chmod +x ./fd929 && chmod +x ./guess && ./fd929 &
+  health-check-type: port
