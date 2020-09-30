@@ -1,5 +1,5 @@
 applications:
-- name: ctlist
+- name: fd929
   buildpacks:
   - binary_buildpack
   instances: 1
